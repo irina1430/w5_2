@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: plum;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+label {
+  color: white;
+}
+h1 {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+h1:hover {
+  color: pink;
+}
+a:hover {
+  color: pink;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 30px;
+}
+header {
+  background-color: purple;
+
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container {
+  background-color: plum;
+}
+.magic-list {
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.magic-list-item {
+  background-color: white;
+  border-radius: 30px;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  border-radius: 30px;
+  width: 300px;
+  height: 400px;
+  align-items: center;
+}
+img:hover {
+  transition: 1s;
+  transform: scale(1.2);
+}
